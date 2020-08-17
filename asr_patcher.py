@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+#  author: 102464 (https://github.com/102464)
+# twitter: @ilikedevelop
 try:
     import r2pipe
 except Exception:
@@ -14,7 +16,7 @@ import os
 if len(sys.argv) != 3:
     print("usage: " + sys.argv[0] + " [asr_in] [asr_out]")
     exit(1)
-print("Welcome to ASR Patcher. This tool will patch asr signature checks using radare2.")
+print("Welcome to ASR Patcher made by 102464. This tool will patch asr signature checks using radare2.")
 if not os.path.exists(sys.argv[1]):
     print("<IN_FILE>" + sys.argv[1] + " not found!")
     exit(1)
